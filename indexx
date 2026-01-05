@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trang của bạn — Tên của bạn</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Tên của bạn</h1>
+      <nav class="site-nav">
+        <a href="#about">Giới thiệu</a>
+        <a href="#work">Công việc</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Chào mừng!</h2>
+        <p>Đây là trang web mẫu. Mình có thể tùy chỉnh nội dung, màu sắc và hình ảnh theo ý bạn.</p>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h3>Giới thiệu</h3>
+      <p>Viết vài câu về bạn ở đây — nghề nghiệp, sở thích, hoặc mục tiêu.</p>
+    </section>
+
+    <section id="work" class="container section">
+      <h3>Công việc / Dự án</h3>
+      <ul>
+        <li>Dự án A — mô tả ngắn</li>
+        <li>Dự án B — mô tả ngắn</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h3>Liên hệ</h3>
+      <p>Email: you@example.com</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Tên của bạn</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
